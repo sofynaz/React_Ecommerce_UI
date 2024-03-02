@@ -1,0 +1,14 @@
+.d-block{
+    text-decoration: none;
+    color: #e965ab;
+    font-family: 'Alkatra', cursive;
+    font-size: large;
+}
+.d-block:hover{
+  color: rgb(140, 57, 57);     
+    transform: scale(1.2);
+}
+.Footer1 {
+    opacity: 1;
+    /* background-color:  rgb(247, 4, 85); */
+}

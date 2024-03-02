@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+    .logoweb{
+        position: absolute;   /* Set the 2nd image with help of absolute position*/ 
+        top: 50%;
+        right: 35%;
+        width: 50%;
+        font-family: 'Alkatra', cursive; 
+        color: rgb(243, 7, 7);
+        text-shadow: 2px 1px 2px yellow; 
+        font-size: 2.5rem;
+    }
+    @media only screen and (min-width: 385px) {
+        .logoweb{
+            position: absolute;   /* Set the 2nd image with help of absolute position*/ 
+            top: 40%;
+            right: 35%;
+            width: 50%;
+            font-family: 'Alkatra', cursive; 
+            color: rgb(243, 7, 7);
+            text-shadow: 2px 1px 2px yellow; 
+            font-size: 2.5rem;
+        }
+        
+      }
+ 
+
+/* Home Cover css */
+.homecover{
+    margin-top: 160px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* slider css */
+.feature{
+    font-family: 'Alkatra', cursive; 
+    color: rgb(249, 143, 161);
+    text-shadow: 2px 1px 2px rgb(252, 6, 112); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
